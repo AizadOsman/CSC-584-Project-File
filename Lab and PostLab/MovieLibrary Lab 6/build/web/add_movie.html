@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Movie Library Application: Add Movie Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Add Movie</h1>
+        <form action='add_movie.do' method='POST'>
+            <a href="add_movie.html"></a>
+            Title: <input type='text' name='title'> <br/><br/>
+            Year: <input type='text' name='year'> <br/><br/>
+            Genre: <select name='genre'>
+                <option value='Sci-Fi'>Sci-Fi</option>
+                <option value='Action'>Action</option>
+                <option value='Comedy'>Comedy</option>
+            </select>
+            or new genre: <input type='text' name='newGenre'> <br/>
+            <input type='submit'>
+        </form>
+    </body>
+</html>
