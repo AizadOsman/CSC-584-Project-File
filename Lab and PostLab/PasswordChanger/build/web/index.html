@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Change Password Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h3>Password Changer</h3>
+        <div class="container">
+        <form action="valid" method="post">
+            <label>Username</label> <input type="text" name="userName"/><br><br>
+            <label>Old Password</label> <input type="password" name="oldPass"/><br><br>
+            <label>New Password</label> <input type="password" name="newPass"/><br><br>
+            <label>Confirm New Password</label> <input type="password" name="confirmPass"/><br><br><br>
+            </div>
+            <input type="submit" value="Submit"/>
+            <input type="reset" value="Reset"/>
+        </form>
+    </body>
+</html>
+
+<style>  
+    
+.container
+{
+    width: 500px;
+    clear: both;
+}
+
+.container input 
+{
+    width: 100%;
+    clear: both;
+}
+
+body
+{
+    background-color: #AED6F1;
+}
+
+input[type=submit]
+{
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=reset]
+{
+  background-color: #F5B041;
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+</style>
+
