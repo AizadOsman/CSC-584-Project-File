@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Bicycle
+comment1.params=
+comment1.target=void\ Bicycle()
+comment2.params=
+comment2.target=java.lang.String\ getOwnerName()
+comment3.params=name
+comment3.target=void\ setOwnerName(java.lang.String)
+numComments=4

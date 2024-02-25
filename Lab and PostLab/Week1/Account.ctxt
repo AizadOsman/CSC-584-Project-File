@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Account
+comment1.params=
+comment1.target=Account()
+comment2.params=amt
+comment2.target=void\ add(double)
+comment3.params=amt
+comment3.target=void\ deduct(double)
+comment4.params=
+comment4.target=double\ getCurrentBalance()
+comment5.params=
+comment5.target=java.lang.String\ getOwnerName()
+comment6.params=bal
+comment6.target=void\ setInitialBalance(double)
+comment7.params=name
+comment7.target=void\ setOwnerName(java.lang.String)
+numComments=8
